@@ -1,7 +1,7 @@
 {
   "name": "ps-ajaxqueue",
   "version": "0.3.0",
-  "description": "Perillo Santana - jQuery Ajax Queue",
+  "description": "PS - jQuery Ajax Queue",
   "main": "./lib/index",
   "homepage": "https://github.com/perillosantana/ps-ajaxqueue",
   "repository": {

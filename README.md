@@ -1,4 +1,4 @@
-# jQuery Ajax Queue
+# PS - jQuery Ajax Queue
 
 Simple Ajax request, avoiding repeated requests
 
