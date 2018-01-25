@@ -8,7 +8,9 @@ Simple Ajax request, avoiding repeated requests
 
 ## Usage
 
-```
+```javascript
+let $PSAjax = require('ps-ajaxqueue');
+
 $PSAjax({
 	url: "https://api.ipify.org/?format=jsonp",
 	dataType: "jsonp",
