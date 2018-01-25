@@ -1,4 +1,4 @@
-# Perillo Santana - jQuery Ajax Queue
+# jQuery Ajax Queue
 
 Simple Ajax request, avoiding repeated requests
 
