@@ -1,0 +1,26 @@
+{
+  "name": "ps-ajaxqueue",
+  "version": "0.1.0",
+  "description": "Perillo Santana - jQuery Ajax Queue",
+  "main": "./lib/index",
+  "homepage": "https://github.com/perillosantana/ps-ajaxqueue",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perillosantana/ps-ajaxqueue.git"
+  },
+  "keywords": [
+    "xhr",
+    "ajax",
+    "request",
+    "queue",
+    "jQuery"
+  ],
+  "author": "Perillo Santana <perillostark@hotmail.com> (http://www.perillosantana.com.br)",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^3.1.2"
+  }
+}
