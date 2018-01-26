@@ -1,8 +1,14 @@
 {
   "name": "ps-ajaxqueue",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "PS - jQuery Ajax Queue",
-  "main": "./lib/index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "homepage": "https://github.com/perillosantana/ps-ajaxqueue",
   "repository": {
     "type": "git",
@@ -20,7 +26,12 @@
     "node": ">=0.4.0"
   },
   "dependencies": {
+    "@types/jquery": "^3.3.0",
+    "@types/jsdom": "^11.0.4",
     "jquery": "^3.3.1",
     "jsdom": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
   }
 }

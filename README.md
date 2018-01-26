@@ -4,12 +4,28 @@ Simple Ajax request, avoiding repeated requests
 
 ## Installation
 
-`npm install ps-ajaxqueue`
+`npm install ps-ajaxqueue -D`
 
-## Usage
+## Usage Javascript
 
 ```javascript
-let $PSAjax = require('ps-ajaxqueue');
+let $PS = require('ps-ajaxqueue');
+
+$PS.ajaxQueue({
+	url: "https://api.ipify.org/?format=jsonp",
+	dataType: "jsonp",
+	clearQueueDelay: null
+}).done(function (data) {
+	console.log(data);
+});
+```
+
+## Usage Javascript
+
+```typescript
+import { ajaxqueue } from 'ps-ajaxqueue';
+
+const $PSAjax = ajaxqueue;
 
 $PSAjax({
 	url: "https://api.ipify.org/?format=jsonp",
